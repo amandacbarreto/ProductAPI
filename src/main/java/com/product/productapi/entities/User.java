@@ -1,13 +1,11 @@
 package com.product.productapi.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
+@Table(name="CUSTOM_USER")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
